@@ -1,0 +1,21 @@
+Homework Exercises (Use ALL Tags from this Document)
+• Exercise 1 — about.html 
+• Use <!DOCTYPE html>.
+• Set <html lang> appropriately. 
+• Include <head> with:
+• <meta charset="UTF-8"> 
+• <meta name="viewport" content="width=device-width, initial-scale=1">
+• <meta name="description"> (concise summary).
+• A meaningful <title>.
+• Two <link> tags: a stylesheet and a favicon.
+• Add <base href="https://mysite.example/resources/">.
+• In <body>: add a heading, a paragraph, and a relative link to 'guide.html' (it must resolve via <base>). 
+-----------------------------------------------------------------------------------------
+ Exercise 2 — resources.html
+• Use <!DOCTYPE html> and set <html lang>.
+• Include <head> with the same document/metadata tags as Exercise 1.
+• Choose a different <title> and <meta name="description">.
+• Reuse the same <base> as Exercise 1.
+• In <body>: list three relative resource links ('slides.html', 'lab1.html', 'reference.html') so they resolve via 
+<base>.
+• Add a line with UTF-8 characters or emojis to verify encoding.

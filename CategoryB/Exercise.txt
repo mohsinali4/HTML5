@@ -1,0 +1,11 @@
+Homework Exercises (Use ALL Structure Tags)
+• Exercise 1
+• Create 'home.html' with <header>, <nav>, <main>, two <section> blocks, one <article>, one <aside>, 
+and <footer>. 
+• Add an <address> block inside Contact section.
+• Ensure headings (h1–h3) reflect a logical outline.
+----------------------------------------------------------------------
+• Exercise 2
+• Create 'blog.html' that lists three <article> posts in a <section>.
+• Each article must contain a heading and a summary paragraph.
+• Add a site-wide <header>, <nav>, and <footer>.

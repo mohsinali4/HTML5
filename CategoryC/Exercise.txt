@@ -1,0 +1,10 @@
+Homework Exercises (Use ALL Text & Inline Tags)
+• Exercise 1
+• Create 'article.html' with <h1>–<h3>, two <p> blocks, and a <blockquote> with a cite URL. 
+• Include a due date using <time>, and one inline quote using <q>. 
+• Show one code sample using <pre><code>…</code></pre> and one keyboard hint with <kbd>.
+------------------------------------------------------------------------------------ 
+• Exercise 2
+• Create 'cheatsheet.html' listing 6 shortcuts using <kbd> and show a sample output line using <samp>. 
+• Use <strong>, <em>, <mark>, <small>, and <abbr> with a title attribute at least once each.
+• Include one scientific formula using <sub>/<sup>.
