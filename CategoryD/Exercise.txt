@@ -1,0 +1,10 @@
+Homework Exercises (Use ALL List & Table Tags)
+• Exercise 1
+• Create 'glossary.html' using <dl>/<dt>/<dd> with at least 8 terms.
+• Add an unordered and an ordered list showing resources and steps. 
+• Ensure list nesting demonstrates hierarchy. 
+----------------------------------------------------------------------------
+• Exercise 2
+• Create 'timetable.html' with a <caption>, <thead>/<tbody>/<tfoot>, and proper <th scope> attributes.
+• Include one merged cell using colspan or rowspan. 
+• Optionally add a <colgroup>/<col> to style the first column.
