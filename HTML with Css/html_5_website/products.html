@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDev Course - Products</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
     <header>
         <h1>WebDev Course</h1>
         <nav>
-            <ul>
+            <ul class="header-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="registration.html">Registration</a></li>
                 <li><a href="products.html">Products</a></li>
@@ -20,10 +21,10 @@
     </header>
 
     <main>
-        <section>
+        <section class="main-section">
             <h2>Our Products</h2>
             
-            <article>
+            <article class="course-details">
                 <h3>Web Development Courses</h3>
                 <table>
                     <caption>Course Offerings and Pricing</caption>
@@ -63,34 +64,35 @@
                     </tbody>
                 </table>
             </article>
-            
-            <article>
-                <h3>Learning Resources</h3>
-                <ul>
-                    <li>Interactive Coding Exercises</li>
-                    <li>Video Tutorials</li>
-                    <li>Project Templates</li>
-                    <li>Community Support</li>
-                    <li>Code Review Sessions</li>
-                    <li>Weekly Q&A Webinars</li>
-                </ul>
-            </article>
-            
-            <article>
-                <h3>Certification Programs</h3>
-                <p>Complete our courses to earn industry-recognized certifications that validate your web development skills.</p>
-                <details>
-                    <summary>View Certification Requirements</summary>
+            <section class="smart-card-section">
+                <article class="smart-card">
+                    <h3>Learning Resources</h3>
                     <ul>
-                        <li>Complete all course modules</li>
-                        <li>Pass final assessment with 80% or higher</li>
-                        <li>Submit a capstone project</li>
-                        <li>Participate in community discussions</li>
+                        <li>Interactive Coding Exercises</li>
+                        <li>Video Tutorials</li>
+                        <li>Project Templates</li>
+                        <li>Community Support</li>
+                        <li>Code Review Sessions</li>
+                        <li>Weekly Q&A Webinars</li>
                     </ul>
-                </details>
-            </article>
+                </article>
+                
+                <article class="smart-card">
+                    <h3>Certification Programs</h3>
+                    <p>Complete our courses to earn industry-recognized certifications that validate your web development skills.</p>
+                    <details>
+                        <summary>View Certification Requirements</summary>
+                        <ul>
+                            <li>Complete all course modules</li>
+                            <li>Pass final assessment with 80% or higher</li>
+                            <li>Submit a capstone project</li>
+                            <li>Participate in community discussions</li>
+                        </ul>
+                    </details>
+                </article>
+            </section>
             
-            <article>
+            <article class="course-details">
                 <h3>Course Bundles</h3>
                 <table>
                     <caption>Save with Our Course Bundles</caption>
@@ -125,16 +127,17 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
         <nav>
-            <ul>
+            <ul class="footer-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="registration.html">Registration</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <p>This website demonstrates HTML5 semantic structure without any CSS styling.</p>
+
+        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
+        
     </footer>
 </body>
 </html>

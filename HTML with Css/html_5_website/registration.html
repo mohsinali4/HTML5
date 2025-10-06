@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDev Course - Registration</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>WebDev Course</h1>
         <nav>
-            <ul>
+            <ul class="header-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="registration.html">Registration</a></li>
                 <li><a href="products.html">Products</a></li>
@@ -19,9 +20,9 @@
     </header>
 
     <main>
-        <section>
+        <section class="main-section">
             <h2>User Registration</h2>
-            <form action="registration-success.html" method="get">
+            <form action="registration-success.html" method="get" class="registration-from">
                 <fieldset>
                     <legend>Personal Information</legend>
                     <p>
@@ -72,7 +73,7 @@
                             <option value="advanced">Advanced</option>
                         </select>
                     </p>
-                    <p>
+                    <p class="radio-field">
                         <label>Interests:</label><br>
                         <input type="checkbox" id="frontend" name="interests" value="frontend">
                         <label for="frontend">Frontend Development</label><br>
@@ -89,7 +90,7 @@
                     </p>
                 </fieldset>
                 
-                <p>
+                <p class="button-section">
                     <input type="submit" value="Register">
                     <input type="reset" value="Clear Form">
                 </p>
@@ -98,16 +99,16 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
         <nav>
-            <ul>
+            <ul class="footer-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="registration.html">Registration</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <p>This website demonstrates HTML5 semantic structure without any CSS styling.</p>
+        
+                <p>&copy; 2023 Web Development Course. All rights reserved.</p>
        
     </footer>
 </body>

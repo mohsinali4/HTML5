@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDev Course - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>WebDev Course</h1>
         <nav>
-            <ul>
+            <ul class="header-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="registration.html">Registration</a></li>
                 <li><a href="products.html">Products</a></li>
@@ -19,10 +20,10 @@
     </header>
 
     <main>
-        <section>
+        <section class="main-section">
             <h2>Contact Us</h2>
             
-            <article>
+            <article class="cotact-form-section">
                 <h3>Get in Touch</h3>
                 <p>We'd love to hear from you. Please use the form below to send us a message.</p>
                 
@@ -50,7 +51,7 @@
                         <label for="contact-message">Message:</label>
                         <textarea id="contact-message" name="contact-message" rows="6" cols="50" required></textarea>
                     </p>
-                    <p>
+                    <p class="radio-field">
                         <label>Preferred Contact Method:</label><br>
                         <input type="radio" id="contact-email-method" name="contact-method" value="email" checked>
                         <label for="contact-email-method">Email</label>
@@ -63,37 +64,38 @@
                     </p>
                 </form>
             </article>
+            <section class="smart-card-section"> 
+                <article class="smart-card">
+                    <h3>Our Location</h3>
+                    <address>
+                        WebDev Training Center<br>
+                        123 Learning Street<br>
+                        Tech City, TC 10101<br>
+                        Email: <a href="mailto:info@webdevcourse.com">info@webdevcourse.com</a><br>
+                        Phone: <a href="tel:+15551234567">(555) 123-4567</a>
+                    </address>
+                </article>
+                
+                <article class="smart-card">
+                    <h3>Office Hours</h3>
+                    <table>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>10:00 AM - 4:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
             
-            <article>
-                <h3>Our Location</h3>
-                <address>
-                    WebDev Training Center<br>
-                    123 Learning Street<br>
-                    Tech City, TC 10101<br>
-                    Email: <a href="mailto:info@webdevcourse.com">info@webdevcourse.com</a><br>
-                    Phone: <a href="tel:+15551234567">(555) 123-4567</a>
-                </address>
-            </article>
-            
-            <article>
-                <h3>Office Hours</h3>
-                <table>
-                    <tr>
-                        <td>Monday - Friday</td>
-                        <td>9:00 AM - 6:00 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>10:00 AM - 4:00 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>Closed</td>
-                    </tr>
-                </table>
-            </article>
-            
-            <article>
+            <article class="faqs">
                 <h3>Frequently Asked Questions</h3>
                 <details>
                     <summary>What prerequisites do I need for the courses?</summary>
@@ -115,16 +117,17 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
         <nav>
-            <ul>
+            <ul class="footer-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="registration.html">Registration</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <p>This website demonstrates HTML5 semantic structure without any CSS styling.</p>
+
+        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
+        
     </footer>
 
 </body>
