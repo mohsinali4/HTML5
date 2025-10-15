@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Course - Registration</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-gradient-to-r from-[#FAE7F3] via-[#E2DBEC] to-[#E2E7FF]">
+    <header class="flex flex-col items-start md:items-center justify-between md:flex-row bg-white text-gray-800  px-5 py-3">
+        <h1 class="text-xl md:text-3xl font-bold tracking-wider">WebDev Course</h1>
+        <nav>
+            <ul class="flex items-start md:items-center flex-col md:flex-row gap-4 md:gap-8 mt-5 md:mt-0 font-medium">
+                <li><a href="index.html" class="pb-1/2 hover:border-b-2 border-gray-600 hover:text-gray-600 transition-all duration-100">Home</a></li>
+                <li><a href="registration.html" class="pb-1/2 hover:border-b-2 border-gray-600 hover:text-gray-600 transition-all duration-100">Registration</a></li>
+                <li><a href="products.html" class="pb-1/2 hover:border-b-2 border-gray-600 hover:text-gray-600 transition-all duration-100">Products</a></li>
+                <li><a href="contact.html" class="pb-1/2 hover:border-b-2 border-gray-600 hover:text-gray-600 transition-all duration-100">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="p-2 md:px-5">
+        <section class="flex flex-col items-center gap-5">
+            <h2 class="p-8 text-xl md:text-3xl font-extrabold tracking-wide mt-5">User Registration</h2>
+            <form action="registration-success.html" method="get" class="registration-from">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <p>
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </p>
+                    <p>
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </p>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Account Information</legend>
+                    <p>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required minlength="8">
+                    </p>
+                    <p>
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </p>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <p>
+                        <label for="birthdate">Birth Date:</label>
+                        <input type="date" id="birthdate" name="birthdate">
+                    </p>
+                    <p>
+                        <label for="course-level">Course Level:</label>
+                        <select id="course-level" name="course-level">
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </p>
+                    <p class="radio-field">
+                        <label>Interests:</label><br>
+                        <input type="checkbox" id="frontend" name="interests" value="frontend">
+                        <label for="frontend">Frontend Development</label><br>
+                        
+                        <input type="checkbox" id="backend" name="interests" value="backend">
+                        <label for="backend">Backend Development</label><br>
+                        
+                        <input type="checkbox" id="fullstack" name="interests" value="fullstack">
+                        <label for="fullstack">Full Stack Development</label>
+                    </p>
+                    <p>
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                    </p>
+                </fieldset>
+                
+                <p class="button-section">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear Form">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-center bg-white text-[#4B5563] p-4 md:pt-5 pb-2 mt-10">
+        <nav>
+            <ul class="p-0 flex flex-col md:flex-row justify-center gap-2 md:gap-5 font-medium mb-5">
+                <li><a href="index.html" class="text-[#4B5563] text-md hover:text-[#F472B6] hover:border-b-2 border-[#F472B2] transition-all duration-75">Home</a></li>
+                <li><a href="registration.html" class="text-[#4B5563] text-md hover:text-[#F472B6] hover:border-b-2 border-[#F472B2] transition-all duration-75">Registration</a></li>
+                <li><a href="products.html" class="text-[#4B5563] text-md hover:text-[#F472B6] hover:border-b-2 border-[#F472B2] transition-all duration-75">Products</a></li>
+                <li><a href="contact.html" class="text-[#4B5563] text-md hover:text-[#F472B6] hover:border-b-2 border-[#F472B2] transition-all duration-75">Contact Us</a></li>
+            </ul>
+        </nav>
+        <p class="text-xs md:text-md color-gray-300 mt-2">&copy; 2023 Web Development Course. All rights reserved.</p>
+    </footer>
+</body>
+</html>

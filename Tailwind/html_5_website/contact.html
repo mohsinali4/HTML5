@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Course - Contact Us</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-gradient-to-r from-[#FAE7F3] via-[#E2DBEC] to-[#E2E7FF]">
+    <header class="flex flex-col items-start md:items-center justify-between md:flex-row bg-white text-gray-800  px-5 py-3">
+        <h1 class="text-xl md:text-3xl font-bold tracking-wider">WebDev Course</h1>
+        <nav>
+            <ul class="flex items-start md:items-center flex-col md:flex-row gap-4 md:gap-8 mt-5 md:mt-0 font-medium">
+                <li><a href="index.html" class="pb-1/2 hover:border-b-2 border-gray-600 hover:text-gray-600 transition-all duration-100">Home</a></li>
+                <li><a href="registration.html" class="pb-1/2 hover:border-b-2 border-gray-600 hover:text-gray-600 transition-all duration-100">Registration</a></li>
+                <li><a href="products.html" class="pb-1/2 hover:border-b-2 border-gray-600 hover:text-gray-600 transition-all duration-100">Products</a></li>
+                <li><a href="contact.html" class="pb-1/2 hover:border-b-2 border-gray-600 hover:text-gray-600 transition-all duration-100">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="p-2 md:px-5">
+        <section class="flex flex-col items-center gap-5">
+            <h2 class="p-8 text-xl md:text-3xl font-extrabold tracking-wide mt-5">Contact Us</h2>
+            
+            <article class="cotact-form-section">
+                <h3>Get in Touch</h3>
+                <p>We'd love to hear from you. Please use the form below to send us a message.</p>
+                
+                <form action="contact-success.html" method="get">
+                    <p>
+                        <label for="contact-name">Your Name:</label>
+                        <input type="text" id="contact-name" name="contact-name" required>
+                    </p>
+                    <p>
+                        <label for="contact-email">Your Email:</label>
+                        <input type="email" id="contact-email" name="contact-email" required>
+                    </p>
+                    <p>
+                        <label for="contact-subject">Subject:</label>
+                        <select id="contact-subject" name="contact-subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="course">Course Information</option>
+                            <option value="technical">Technical Support</option>
+                            <option value="billing">Billing Question</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="contact-message">Message:</label>
+                        <textarea id="contact-message" name="contact-message" rows="6" cols="50" required></textarea>
+                    </p>
+                    <p class="radio-field">
+                        <label>Preferred Contact Method:</label><br>
+                        <input type="radio" id="contact-email-method" name="contact-method" value="email" checked>
+                        <label for="contact-email-method">Email</label>
+                        
+                        <input type="radio" id="contact-phone-method" name="contact-method" value="phone">
+                        <label for="contact-phone-method">Phone</label>
+                    </p>
+                    <p>
+                        <input type="submit" value="Send Message">
+                    </p>
+                </form>
+            </article>
+            <section class="py-5 px-7 flex align-center justify-center gap-12 flex-col md:flex-row"> 
+                <article class="flex flex-col gap-2 p-5 bg-white border-2 border-red-300 rounded-tl-2xl rounded-br-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <h3 class="text-center text-transparent bg-gradient-to-r from-[#b92766] via-[#b733b0] to-[#5242c6] bg-clip-text font-bold text-lg">Our Location</h3>
+                    <address>
+                        WebDev Training Center<br>
+                        123 Learning Street<br>
+                        Tech City, TC 10101<br>
+                        Email: <a href="mailto:info@webdevcourse.com">info@webdevcourse.com</a><br>
+                        Phone: <a href="tel:+15551234567">(555) 123-4567</a>
+                    </address>
+                </article>
+                
+                <article class="flex flex-col gap-2 p-5 bg-white border-2 border-red-300 rounded-tl-2xl rounded-br-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <h3 class="text-center text-transparent bg-gradient-to-r from-[#b92766] via-[#b733b0] to-[#5242c6] bg-clip-text font-bold text-lg">Office Hours</h3>
+                    <table>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>10:00 AM - 4:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+            
+            <article class="faqs">
+                <h3>Frequently Asked Questions</h3>
+                <details>
+                    <summary>What prerequisites do I need for the courses?</summary>
+                    <p>Our beginner courses require no prior experience. For intermediate and advanced courses, we recommend basic computer literacy and familiarity with using web browsers.</p>
+                    
+                </details>
+                
+                <details>
+                    <summary>How long do I have access to course materials?</summary>
+                    <p>You'll have lifetime access to all course materials once you enroll, including any future updates to the content.</p>
+                </details>
+                
+                <details>
+                    <summary>Do you offer payment plans?</summary>
+                    <p>Yes, we offer flexible payment plans for all our courses. Contact us for more information about available options.</p>
+                </details>
+            </article>
+        </section>
+    </main>
+
+    <footer class="text-center bg-white text-[#4B5563] p-4 md:pt-5 pb-2 mt-10">
+        <nav>
+            <ul class="p-0 flex flex-col md:flex-row justify-center gap-2 md:gap-5 font-medium mb-5">
+                <li><a href="index.html" class="text-[#4B5563] text-md hover:text-[#F472B6] hover:border-b-2 border-[#F472B2] transition-all duration-75">Home</a></li>
+                <li><a href="registration.html" class="text-[#4B5563] text-md hover:text-[#F472B6] hover:border-b-2 border-[#F472B2] transition-all duration-75">Registration</a></li>
+                <li><a href="products.html" class="text-[#4B5563] text-md hover:text-[#F472B6] hover:border-b-2 border-[#F472B2] transition-all duration-75">Products</a></li>
+                <li><a href="contact.html" class="text-[#4B5563] text-md hover:text-[#F472B6] hover:border-b-2 border-[#F472B2] transition-all duration-75">Contact Us</a></li>
+            </ul>
+        </nav>
+        <p class="text-xs md:text-md color-gray-300 mt-2">&copy; 2023 Web Development Course. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

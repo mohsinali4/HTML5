@@ -30,7 +30,7 @@ header h1{
     text-decoration: none;
     font-weight: 600;
     color: #1a1a1a;
-    transition: color 0.3s;
+    transition: all 0.3s;
 }
 .header-nav a:hover{
     color: #5c5c5c;
@@ -59,15 +59,12 @@ footer {
     margin-bottom: 20px;
 }
 
-.footer-nav li {
-    margin: 0;
-}
 
 .footer-nav a {
     text-decoration: none; 
     color:  #4B5563; 
     font-size: 16px;
-    transition: color 0.3s ease; 
+    transition: all 0.3s ease; 
 }
 
 .footer-nav a:hover {
@@ -106,7 +103,7 @@ input,textarea,select{
    margin: auto;
    padding: 8px;
    border-radius: 8px;
-   font-size: 16px;
+   font-size: 1rem;
    border: none;
    box-shadow: 1px 1px 15px rgb(215, 215, 215);
 }
@@ -176,6 +173,13 @@ th{
 
 
 /* for cards on  home and contact */
+.smart-card-section{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
 .about-card-home h3{
     text-align: center;
 }
@@ -207,13 +211,6 @@ th{
 /* Home Style */
 
 
-.smart-card-section{
-    padding: 20px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
 .about-card-home{
     max-width: 50%;
     margin: auto;
@@ -246,11 +243,7 @@ th{
     flex-direction: column;
     gap: 10px;
 }
-.location-section{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
+
 .faqs{
     width: 70%;
     margin:15px auto;
@@ -312,9 +305,9 @@ summary::marker{
         flex-direction: column;
         align-items: flex-start;
     }
-    nav ul{
-        gap: 15px;
+    .header-nav{
         margin-top: 20px;
+        gap: 15px;
         flex-direction: column;
     }
 

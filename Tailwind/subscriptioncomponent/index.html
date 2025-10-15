@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>subscription component</title>
+</head>
+
+<body class="bg-zinc-700 flex items-center justify-center min-h-screen">
+    <section
+        class="flex items-center flex-col bg-[#27272A] text-white p-4 w-[90%] sm:w-full md:flex-row md:w-[80%] lg:w-[48%] h-auto rounded-2xl relative gap-10 sm:flex-col">
+        <div class="w-full sm:w-full md:w-[40%]">
+            <img src="./assets/subscriptioncardimg.jpeg" alt="subscribe card image"
+                class="w-full h-auto sm:h-[180px] object-cover rounded-l-xl sm:rounded-t-xl sm:rounded-l-none hover:scale-105 hover:rounded-r-xl transition-all duration-300">
+        </div>
+
+        <div class="w-full md:w-[60%] flex flex-col gap-6">
+            <h2 class="text-xl font-thin font-serif text-center sm:text-left">Get diet and fitness tips in your inbox
+            </h2>
+            <p class="text-xs text-center sm:text-left">
+                Eat better and exercise better. Sign up for the <br class="hidden sm:block">Diet & Fitness newsletter.
+            </p>
+            <div class="flex items-center gap-3 sm:flex-col sm:items-stretch">
+                <input type="email" placeholder="Enter your email address"
+                    class="w-[80%] sm:w-full bg-transparent border border-[#52525C] text-xs p-3 rounded-md">
+                <button
+                    class="py-3 px-4 text-black text-xs bg-lime-500 hover:bg-lime-700 hover:text-white transition-all duration-300 rounded-md">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
